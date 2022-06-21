@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyApiWithDoc</name>
+    </assembly>
+    <members>
+        <member name="M:MyApiWithDoc.Controllers.SorteioController.getIndex">
+            <summary>
+            Sorteio get
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MyApiWithDoc.Controllers.SorteioController.getById(System.Int32)">
+            <summary>
+            Get sorteio por id
+            </summary>
+            <param name="id">Client id</param>
+            <returns></returns>
+        </member>
+        <member name="M:MyApiWithDoc.Controllers.SorteioController.Post(MyApiWithDoc.Requests.CreateSorteioRequest)">
+            <summary>
+            Adiciona novo sorteio
+            </summary>
+            <param name="sorteioRequest">sorteio data</param>
+            <returns></returns>
+        </member>
+        <member name="M:MyApiWithDoc.Controllers.SorteioController.Put(System.Int32,MyApiWithDoc.Requests.UpdateSorteioRequest)">
+            <summary>
+            Atualiza sorteio por id
+            </summary>
+            <param name="id">sorteio id</param>
+            <param name="sorteioRequest">Sorteio data</param>
+            <returns></returns>
+        </member>
+        <member name="M:MyApiWithDoc.Controllers.SorteioController.Delete(System.Int32)">
+            <summary>
+            Deleta sorteio por id
+            </summary>
+            <param name="id">Sorteio id</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
