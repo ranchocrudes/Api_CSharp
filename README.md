@@ -10,7 +10,9 @@ https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-3.1.420-windows
 
 dotnet new webapi --name {nameApi}
 
-# Add packages
+#### Add packages
 
+```bash
 dotnet add package Swashbuckle.AspNetCore -v 5.0.0
 dotnet add package Microsoft.AspNetCore.Mvc.NewtonsoftJson -v 3.1.3
+```
