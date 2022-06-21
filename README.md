@@ -9,7 +9,7 @@ Api com get put post e delete feito com c#
 ### Create an API project
 
 ```bash
-dotnet new webapi --name MyApiWithDoc
+dotnet new webapi --name {nameApi}
 ```
 
 #### Add packages
