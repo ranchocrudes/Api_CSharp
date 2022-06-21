@@ -2,13 +2,15 @@
 
 Api com get put post e delete feito com c#
 
-# Prerequisites
+### Prerequisites
 
-https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-3.1.420-windows-x64-installer
+-   .NET Core 3.1 SDK - https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-3.1.420-windows-x64-installer
 
-# Create an API project
+### Create an API project
 
-dotnet new webapi --name {nameApi}
+```bash
+dotnet new webapi --name MyApiWithDoc
+```
 
 #### Add packages
 
